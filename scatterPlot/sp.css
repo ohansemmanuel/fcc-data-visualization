@@ -1,0 +1,55 @@
+body {
+	font-family: 'lato', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	background-image: radial-gradient(circle farthest-corner at 30px 30px, #e8e9e9 , rgba(140, 172, 234, 0.4));
+}
+
+h1, h3 {
+	font-weight: 300;
+}
+
+.small {
+	font-size: 10pt;
+	font-weight: 600;
+}
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+#tooltip {
+	position: absolute;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	background-color: rgb(140, 172, 234);
+	color: white;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	pointer-events: none;
+	-webkit-box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+	-o-box-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+	box-shadow: px 3px 6px rgba(0,0,0,0.4);
+}
+
+section {
+	text-align: center;
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	font-size: 8pt;
+}
